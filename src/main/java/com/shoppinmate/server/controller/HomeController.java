@@ -13,4 +13,10 @@ public class HomeController {
 		return mv;
 	}
 	
+	@RequestMapping(path="69")
+	public ModelAndView page69(){
+		ModelAndView mv = new ModelAndView("69");
+		return mv;
+	}
+	
 }
